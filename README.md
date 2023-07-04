@@ -1,10 +1,8 @@
-# SuperItemsShop
-A SuperItemsShop Plugin For Pocketmine
-![Screenshot_2023-07-04-17-39-11-24_5c8300b655012b1930f2e0a7b81bf6a9](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/adf0353b-c047-484d-9fa6-deaf122db0b8)
 # How To use 
 First Download The Plugin Than upload On Your Server Plugin Fill Than Start The Server And Join It Use **/sshop**!
 # Information 
 This Plugin Is A Super Items Shop, You Get 6 Items In Shop And Both Items Give You Op Effects!
+![IMG_20230704_174108](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/50d659b2-79db-4b96-8589-06f85668a0e5)
 # Potions
 In The Shop You Get 2 Type Of Potions **GOD POTION** And **Blood Potion**!
 ![IMG_20230704_174053](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/e517606a-f4c3-47a5-9ab2-9b50e8142b62)
