@@ -1,0 +1,18 @@
+### [ CommunityShop ] ###
+
+# Change Price Off Items 
+
+#Potions
+God_Potion_Price: 50000
+Blood_Potion_Price: 300000
+
+#Cookies
+Booster_Cookie_Price: 25000
+GB_Cookie_Price: 100000
+
+#Others
+Dark_Carrot_Price: 500000
+Legends_Apple_Price: 40000
+
+# Don't Add M or K
+# Enjoy Plugin
