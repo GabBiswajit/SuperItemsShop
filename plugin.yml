@@ -1,0 +1,16 @@
+name: SuperItemsShop
+main: Biswajit\SuperItemsShop
+version: 2.0.0
+api: 5.0.0
+author: Biswajit
+
+commands:
+    sshop:
+        description: "Use To Open SuperItemsShop Shop"
+        permission: sshop.cmd.use
+      
+
+permissions:
+    sshop.cmd.use:
+        description: "Permission To Use /sshop Command"
+        default: true
