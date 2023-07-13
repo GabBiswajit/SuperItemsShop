@@ -1,6 +1,6 @@
 <?php
 
-namespace Biswajit;
+namespace Biswajit\SuperItems;
 
 use pocketmine\Server;
 use pocketmine\player\Player;
