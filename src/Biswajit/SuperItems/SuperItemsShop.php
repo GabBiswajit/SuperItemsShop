@@ -80,7 +80,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bSUPER ITEMS SHOP");
-          $form->setContent("§dSelect The Which Item You Want To Purchase:", 0, );
+          $form->setContent("§dSelect The Which Item You Want To Purchase:", 0);
           $form->addButton("§r§l§ePOTIONS\n§r§l§c»» §r§6Tap To Open", 1, "https://cdn-icons-png.flaticon.com/512/867/867927.png");
           $form->addButton("§r§l§eCOOKIES\n§r§l§c»» §r§6Tap To Open", 1, "https://cdn-icons-png.flaticon.com/512/541/541803.png");
           $form->addButton("§r§l§eOTHERS\n§r§l§c»» §r§6Tap To Open", 1, "https://cdn-icons-png.flaticon.com/512/8323/8323931.png");
@@ -106,7 +106,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bPOTIONS - PURCHASE");
-          $form->setContent("§dSelect The Which Potion You Want To Purchase:", 0, );
+          $form->setContent("§dSelect The Which Potion You Want To Purchase:", 0);
           $form->addButton("§r§l§eGOD POTION\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/867/867927.png");
           $form->addButton("§r§l§eBLOOD POTION\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/867/867927.png");
           $form->sendToPlayer($player);
@@ -131,7 +131,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bCOOKIES - PURCHASE");
-          $form->setContent("§dSelect The Which Cookie You Want To Purchase:", 0, );
+          $form->setContent("§dSelect The Which Cookie You Want To Purchase:", 0);
           $form->addButton("§r§l§eBOOSTER COOKIE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/541/541803.png");
           $form->addButton("§r§l§eGB COOKIE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/541/541803.png");
           $form->sendToPlayer($player);
@@ -156,7 +156,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bOTHERS - PURCHASE");
-          $form->setContent("§dSelect The Which Item You Want To Purchase:", 0, );
+          $form->setContent("§dSelect The Which Item You Want To Purchase:", 0);
           $form->addButton("§r§l§eDARK CARROT\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/8323/8323931.png");
           $form->addButton("§r§l§eLEGENDS APPLE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/8323/8323931.png");
           $form->sendToPlayer($player);
