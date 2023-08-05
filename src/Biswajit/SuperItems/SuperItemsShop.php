@@ -187,10 +187,9 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  } else {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						  }
-			   		}
-		            )	
-                  }
-			});					
+				      });	
+		  }
+			});			
 					$form->setTitle("§l§bPURCHASE GOD POTION?");
           $form->setContent("§dName: §fGod Potion\n\n§dDescription: §fConsume This Potion To Receive All Effects For 3 Days.\n\n§dDuration: §f3 Days\n\n§dPrice §f" . $this->config->get("God_Potion_Price"), 0, );
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
@@ -220,8 +219,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  } else {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						  }
-			   		}
-		            )	
+				      });	
                   }
 			});			
 					$form->setTitle("§l§bPURCHASE BLOOD POTION?");
@@ -253,8 +251,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  } else {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						}
-			   		}
-		            )		
+				      });		
                   }
 			});						
 					$form->setTitle("§l§bPURCHASE BOOSTER COOKIE?");
@@ -286,8 +283,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  } else {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						  }
-			   		}
-		            )	
+				     });
                   }
 			});							
 					$form->setTitle("§l§bPURCHASE GB COOKIE?");
@@ -319,9 +315,8 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  } else {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						 }
-			   		}
-		            )		
-                  }
+				      });
+                               }
 			});					
 					$form->setTitle("§l§bPURCHASE DARK CARROT?");
           $form->setContent("§dName: §fDark Carrot\n\n§dDescription: §fConsume This Carrot To Receive Health Boost And Night Vision Effect For 2 Days.\n\n§dDuration: §f2 Days\n\n§dPrice §f" . $this->config->get("Dark_Carrot_Price"), 0, );
@@ -352,8 +347,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  } else {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
                       }
-			   		}
-		            )		
+				      });		
                   }
 			});			
 					$form->setTitle("§l§bPURCHASE LEGENDS APPLE?");
