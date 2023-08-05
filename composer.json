@@ -1,0 +1,12 @@
+{
+    "name": "davidglitch04/libeco",
+    "description": "Make it easier for developers to use the economic plugin",
+    "type": "library",
+    "license": "GPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Davidglitch04\\Libeco\\": "src/"
+        }
+    },
+    "require": {}
+}
