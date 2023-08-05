@@ -171,12 +171,10 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("God_Potion_Price") {
-				      libEco::reduceMoney($player, $amount, function (
-                    bool $success
-                ) use ($player) : void {
-                    if ($success) {
-						  $item1 = VanillaItems::POTION();
+						  $amount = $this->config->get("God_Potion_Price"); {
+				          libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
+                          if ($success) {
+				 		  $item1 = VanillaItems::POTION();
 						  $glow = VanillaEnchantments::UNBREAKING();
               $item1->addEnchantment(new EnchantmentInstance($glow, 1));
               $item1->getNamedTag()->setString("god_potion", "gems");
@@ -186,10 +184,11 @@ class SuperItemsShop extends PluginBase implements Listener {
               $player->sendMessage("§l§aSuccess! §r§eYou Purchased §bGod Potion");
 						  } else {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
-						  }
-				      });	
-		  }
-			});			
+                          }
+                });
+        }
+    }
+   });
 					$form->setTitle("§l§bPURCHASE GOD POTION?");
           $form->setContent("§dName: §fGod Potion\n\n§dDescription: §fConsume This Potion To Receive All Effects For 3 Days.\n\n§dDuration: §f3 Days\n\n§dPrice §f" . $this->config->get("God_Potion_Price"), 0, );
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
@@ -205,7 +204,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Blood_Potion_Price") {
+						  $amount = $this->config->get("Blood_Potion_Price"); {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::POTION();
@@ -221,7 +220,8 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  }
 				      });	
                   }
-			});			
+			}
+         });			
 					$form->setTitle("§l§bPURCHASE BLOOD POTION?");
           $form->setContent("§dName: §fBlood Potion\n\n§dDescription: §fConsume This Potion To Receive All Effects For 2 Days.\n\n§dDuration: §f2 Days\n\n§dPrice §f" . $this->config->get("Blood_Potion_Price"), 0, );
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
@@ -237,7 +237,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Booster_Cookie_Price") {
+						  $amount = $this->config->get("Booster_Cookie_Price"); {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::COOKIE();
@@ -253,7 +253,8 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 				      });		
                   }
-			});						
+			}
+         });						
 					$form->setTitle("§l§bPURCHASE BOOSTER COOKIE?");
           $form->setContent("§dName: §fBooster Cookie\n\n§dDescription: §fConsume This Cookie To Receive Some Effects For 3 Days.\n\n§dDuration: §f3 Days\n\n§dPrice §f" . $this->config->get("Booster_Cookie_Price"), 0, );
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
@@ -269,7 +270,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("GB_Cookie_Price") {
+						  $amount = $this->config->get("GB_Cookie_Price"); {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::COOKIE();
@@ -285,7 +286,8 @@ class SuperItemsShop extends PluginBase implements Listener {
 						  }
 				     });
                   }
-			});							
+			}
+        });							
 					$form->setTitle("§l§bPURCHASE GB COOKIE?");
           $form->setContent("§dName: §fGB Cookie\n\n§dDescription: §fConsume This Cookie To Receive Some Effects For 1 Day.\n\n§dDuration: §f1 Day\n\n§dPrice §f" . $this->config->get("GB_Cookie_Price"), 0, );
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
@@ -301,7 +303,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Dark_Carrot_Price") {
+						  $amount = $this->config->get("Dark_Carrot_Price"); {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::GOLDEN_CARROT();
@@ -316,8 +318,9 @@ class SuperItemsShop extends PluginBase implements Listener {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						 }
 				      });
-                               }
-			});					
+                  }
+			}
+        });					
 					$form->setTitle("§l§bPURCHASE DARK CARROT?");
           $form->setContent("§dName: §fDark Carrot\n\n§dDescription: §fConsume This Carrot To Receive Health Boost And Night Vision Effect For 2 Days.\n\n§dDuration: §f2 Days\n\n§dPrice §f" . $this->config->get("Dark_Carrot_Price"), 0, );
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
@@ -333,7 +336,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 					    }
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Legends_Apple_Price") {
+						  $amount = $this->config->get("Legends_Apple_Price"); {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::GOLDEN_APPLE();
@@ -349,7 +352,8 @@ class SuperItemsShop extends PluginBase implements Listener {
                       }
 				      });		
                   }
-			});			
+			}
+         });			
 					$form->setTitle("§l§bPURCHASE LEGENDS APPLE?");
           $form->setContent("§dName: §fLegends Apple\n\n§dDescription: §fConsume This Apple To Receive Health Boost And Night Vision Effect For 1 Day.\n\n§dDuration: §f1 Day\n\n§dPrice §f" . $this->config->get("Legends_Apple_Price"), 0, );
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
