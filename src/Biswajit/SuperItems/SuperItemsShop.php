@@ -17,7 +17,7 @@ use pocketmine\nbt\tag\ListTag;
 use pocketmine\nbt\tag\IntTag;
 use pocketmine\nbt\tag\StringTag;
 use pocketmine\tile\Chest;
-use Biswajit\libs\davidglitch04\libEco\libEco;
+use davidglitch04\libEco\libEco;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 use pocketmine\entity\effect\EffectInstance;
