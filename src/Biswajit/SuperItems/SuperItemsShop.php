@@ -188,7 +188,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						  }
 			   		}
-		            );		
+		            )	
                   }
 			});					
 					$form->setTitle("§l§bPURCHASE GOD POTION?");
@@ -221,7 +221,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						  }
 			   		}
-		            );		
+		            )	
                   }
 			});			
 					$form->setTitle("§l§bPURCHASE BLOOD POTION?");
@@ -254,7 +254,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						}
 			   		}
-		            );		
+		            )		
                   }
 			});						
 					$form->setTitle("§l§bPURCHASE BOOSTER COOKIE?");
@@ -287,7 +287,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						  }
 			   		}
-		            );		
+		            )	
                   }
 			});							
 					$form->setTitle("§l§bPURCHASE GB COOKIE?");
@@ -320,7 +320,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
 						 }
 			   		}
-		            );		
+		            )		
                   }
 			});					
 					$form->setTitle("§l§bPURCHASE DARK CARROT?");
@@ -353,7 +353,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						    $player->sendMessage("§l§cError! §r§cYou Don't Have Enough Money :<");
                       }
 			   		}
-		            );		
+		            )		
                   }
 			});			
 					$form->setTitle("§l§bPURCHASE LEGENDS APPLE?");
