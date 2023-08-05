@@ -22,7 +22,6 @@ use pocketmine\utils\TextFormat;
 use pocketmine\entity\effect\EffectInstance;
 use pocketmine\entity\effect\VanillaEffects;
 use pocketmine\utils\Config;
-use Biswajit\libs\davidglitch04\libEco\libEco;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\player\PlayerInteractEvent;
