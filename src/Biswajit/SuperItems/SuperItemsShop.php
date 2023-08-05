@@ -1,6 +1,6 @@
 <?php
 
-namespace Biswajit;
+namespace Biswajit\SuperItems;
 
 use pocketmine\Server;
 use pocketmine\player\Player;
@@ -33,12 +33,12 @@ use pocketmine\item\enchantment\Enchantment;
 use pocketmine\item\enchantment\VanillaEnchantments;
 use pocketmine\item\enchantment\EnchantmentInstance;
 use pocketmine\data\bedrock\EnchantmentIdMap;
-use Biswajit\libs\jojoe77777\FormAPI\ {
-    SimpleForm,
-    CustomForm
-};
+use Biswajit\libs\jojoe77777\FormAPI\SimpleForm;
+use Biswajit\libs\jojoe77777\FormAPI\CustomForm;
 
 class SuperItemsShop extends PluginBase implements Listener {
+	
+ private $config
 	
 	public function onEnable() : void {
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
