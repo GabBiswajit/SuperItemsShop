@@ -5,4 +5,9 @@ branches:
 projects:
   SuperItemsShop:
     path: ""
+    lint: false
+    libs:
+      - src: David-pm-pl/libEco/libEco
+        version: ^3.0.0
+        branch: stable
 ... 
