@@ -33,8 +33,8 @@ use pocketmine\item\enchantment\Enchantment;
 use pocketmine\item\enchantment\VanillaEnchantments;
 use pocketmine\item\enchantment\EnchantmentInstance;
 use pocketmine\data\bedrock\EnchantmentIdMap;
-use Biswajit\libs\jojoe77777\FormAPI\SimpleForm;
-use Biswajit\libs\jojoe77777\FormAPI\CustomForm;
+use jojoe77777\FormAPI\SimpleForm;
+use jojoe77777\FormAPI\CustomForm;
 
 class SuperItemsShop extends PluginBase implements Listener {
 	
