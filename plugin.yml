@@ -9,8 +9,8 @@ commands:
   sshop:
     description: "use to open SuperItemsShop"
     usage: "/sshop"
-    permission: sshop.cmd.use
+    permission: SuperItemsShop.cmd.use
 permissions:
-  sshop.cmd.use:
+  SuperItemsShop.cmd.use:
     description: "Permission To Use /sshop Command"
     default: true
