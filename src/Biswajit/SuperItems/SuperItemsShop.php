@@ -38,7 +38,7 @@ use Biswajit\libs\jojoe77777\FormAPI\CustomForm;
 
 class SuperItemsShop extends PluginBase implements Listener {
 	
- private $config
+ private $config;
 	
 	public function onEnable() : void {
       $this->getServer()->getPluginManager()->registerEvents($this, $this);
