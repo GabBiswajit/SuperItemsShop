@@ -12,7 +12,7 @@ In The Shop You Get 2 Type Of Cookies **BOOSTER COOKIE** And **GB COOKIE**!
 # Other
 You Get 2 Items In Other **DARK CARROT** And **LEGENDS APPLE**!
 ![IMG_20230704_174010](https://github.com/GabBiswajit/SuperItemsShop/assets/121815367/51b5b2b7-866b-47ba-a4e7-3a09f2d7a6e7)
-# Permission
-sshop.cmd.use This Permission Is Set On **Default**!
+# Economy Suport
+Currently this library only supports BedrockEconomy and EconomyAPI.
 # Price
 You Can Change Items Price From Plugin Data **Config.yml**!
