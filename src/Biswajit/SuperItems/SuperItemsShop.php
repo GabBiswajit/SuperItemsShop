@@ -79,7 +79,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bSUPER ITEMS SHOP");
-          $form->setContent("§dSelect The Which Item You Want To Purchase:", 0);
+          $form->setContent("§dSelect The Which Item You Want To Purchase:");
           $form->addButton("§r§l§ePOTIONS\n§r§l§c»» §r§6Tap To Open", 1, "https://cdn-icons-png.flaticon.com/512/867/867927.png");
           $form->addButton("§r§l§eCOOKIES\n§r§l§c»» §r§6Tap To Open", 1, "https://cdn-icons-png.flaticon.com/512/541/541803.png");
           $form->addButton("§r§l§eOTHERS\n§r§l§c»» §r§6Tap To Open", 1, "https://cdn-icons-png.flaticon.com/512/8323/8323931.png");
@@ -105,7 +105,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bPOTIONS - PURCHASE");
-          $form->setContent("§dSelect The Which Potion You Want To Purchase:", 0);
+          $form->setContent("§dSelect The Which Potion You Want To Purchase:");
           $form->addButton("§r§l§eGOD POTION\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/867/867927.png");
           $form->addButton("§r§l§eBLOOD POTION\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/867/867927.png");
           $form->sendToPlayer($player);
@@ -130,7 +130,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bCOOKIES - PURCHASE");
-          $form->setContent("§dSelect The Which Cookie You Want To Purchase:", 0);
+          $form->setContent("§dSelect The Which Cookie You Want To Purchase:");
           $form->addButton("§r§l§eBOOSTER COOKIE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/541/541803.png");
           $form->addButton("§r§l§eGB COOKIE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/541/541803.png");
           $form->sendToPlayer($player);
@@ -155,7 +155,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			   		}
 					});					
 					$form->setTitle("§l§bOTHERS - PURCHASE");
-          $form->setContent("§dSelect The Which Item You Want To Purchase:", 0);
+          $form->setContent("§dSelect The Which Item You Want To Purchase:");
           $form->addButton("§r§l§eDARK CARROT\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/8323/8323931.png");
           $form->addButton("§r§l§eLEGENDS APPLE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/8323/8323931.png");
           $form->sendToPlayer($player);
@@ -189,7 +189,7 @@ class SuperItemsShop extends PluginBase implements Listener {
     }
    });
 					$form->setTitle("§l§bPURCHASE GOD POTION?");
-          $form->setContent("§dName: §fGod Potion\n\n§dDescription: §fConsume This Potion To Receive All Effects For 3 Days.\n\n§dDuration: §f3 Days\n\n§dPrice §f" . $this->config->get("God_Potion_Price"), 0, );
+          $form->setContent("§dName: §fGod Potion\n\n§dDescription: §fConsume This Potion To Receive All Effects For 3 Days.\n\n§dDuration: §f3 Days\n\n§dPrice §f" . $this->config->get("God_Potion_Price"));
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
           $form->sendToPlayer($player);
             return $form;
@@ -222,7 +222,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			}
          });			
 					$form->setTitle("§l§bPURCHASE BLOOD POTION?");
-          $form->setContent("§dName: §fBlood Potion\n\n§dDescription: §fConsume This Potion To Receive All Effects For 2 Days.\n\n§dDuration: §f2 Days\n\n§dPrice §f" . $this->config->get("Blood_Potion_Price"), 0);
+          $form->setContent("§dName: §fBlood Potion\n\n§dDescription: §fConsume This Potion To Receive All Effects For 2 Days.\n\n§dDuration: §f2 Days\n\n§dPrice §f" . $this->config->get("Blood_Potion_Price"));
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
           $form->sendToPlayer($player);
             return $form;
@@ -255,7 +255,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			}
          });						
 					$form->setTitle("§l§bPURCHASE BOOSTER COOKIE?");
-          $form->setContent("§dName: §fBooster Cookie\n\n§dDescription: §fConsume This Cookie To Receive Some Effects For 3 Days.\n\n§dDuration: §f3 Days\n\n§dPrice §f" . $this->config->get("Booster_Cookie_Price"), 0);
+          $form->setContent("§dName: §fBooster Cookie\n\n§dDescription: §fConsume This Cookie To Receive Some Effects For 3 Days.\n\n§dDuration: §f3 Days\n\n§dPrice §f" . $this->config->get("Booster_Cookie_Price"));
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
           $form->sendToPlayer($player);
             return $form;
@@ -288,7 +288,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			}
         });							
 					$form->setTitle("§l§bPURCHASE GB COOKIE?");
-          $form->setContent("§dName: §fGB Cookie\n\n§dDescription: §fConsume This Cookie To Receive Some Effects For 1 Day.\n\n§dDuration: §f1 Day\n\n§dPrice §f" . $this->config->get("GB_Cookie_Price"), 0);
+          $form->setContent("§dName: §fGB Cookie\n\n§dDescription: §fConsume This Cookie To Receive Some Effects For 1 Day.\n\n§dDuration: §f1 Day\n\n§dPrice §f" . $this->config->get("GB_Cookie_Price"));
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
           $form->sendToPlayer($player);
             return $form;
@@ -321,7 +321,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			}
         });					
 					$form->setTitle("§l§bPURCHASE DARK CARROT?");
-          $form->setContent("§dName: §fDark Carrot\n\n§dDescription: §fConsume This Carrot To Receive Health Boost And Night Vision Effect For 2 Days.\n\n§dDuration: §f2 Days\n\n§dPrice §f" . $this->config->get("Dark_Carrot_Price"), 0);
+          $form->setContent("§dName: §fDark Carrot\n\n§dDescription: §fConsume This Carrot To Receive Health Boost And Night Vision Effect For 2 Days.\n\n§dDuration: §f2 Days\n\n§dPrice §f" . $this->config->get("Dark_Carrot_Price"));
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
           $form->sendToPlayer($player);
             return $form;
@@ -354,7 +354,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 			}
          });			
 					$form->setTitle("§l§bPURCHASE LEGENDS APPLE?");
-          $form->setContent("§dName: §fLegends Apple\n\n§dDescription: §fConsume This Apple To Receive Health Boost And Night Vision Effect For 1 Day.\n\n§dDuration: §f1 Day\n\n§dPrice §f" . $this->config->get("Legends_Apple_Price"), 0);
+          $form->setContent("§dName: §fLegends Apple\n\n§dDescription: §fConsume This Apple To Receive Health Boost And Night Vision Effect For 1 Day.\n\n§dDuration: §f1 Day\n\n§dPrice §f" . $this->config->get("Legends_Apple_Price"));
           $form->addButton("§r§l§aPURCHASE\n§r§l§c»» §r§6Tap To Purchase", 1, "https://cdn-icons-png.flaticon.com/512/1168/1168610.png");
           $form->sendToPlayer($player);
             return $form;
