@@ -10,4 +10,6 @@ projects:
       - src: David-pm-pl/libEco/libEco
         version: ^3.0.0
         branch: stable
+      - src: jojoe77777/FormAPI/libFormAPI
+        version: ^2.1.1
 ... 
