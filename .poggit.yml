@@ -5,7 +5,4 @@ branches:
 projects:
   SuperItemsShop:
     path: ""
-libs:
-  - src: davidglitch04\libEco\libEco
-    version: ^3.0.0
 ... 
