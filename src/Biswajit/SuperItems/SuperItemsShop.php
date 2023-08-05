@@ -50,7 +50,7 @@ class SuperItemsShop extends PluginBase implements Listener {
   public function onCommand(CommandSender $gamer, Command $cmd, string $label,array $args): bool{
 		switch($cmd->getName()){
 			case "sshop":
-				  if(!$gamer->hasPermission("sshop.cmd.use")) {
+				  if(!$gamer->hasPermission("SuperItemsShop.cmd.use")) {
 				    $gamer->sendMessage("You Don't Have Permission To Use This Command");
 				  } else {
 				    $this->form($gamer);
