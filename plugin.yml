@@ -3,6 +3,7 @@ main: Biswajit\SuperItems\SuperItemsShop
 version: 2.0.0
 api: 5.0.0
 author: Biswajit
+softdepend: ["BedrockEconomy", "EconomyAPI"]
 
 commands:
   sshop:
