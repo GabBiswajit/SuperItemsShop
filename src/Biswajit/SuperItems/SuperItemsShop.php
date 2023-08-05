@@ -171,7 +171,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("God_Potion_Price")) {
+						  $amount = $this->config->get("God_Potion_Price") {
 				      libEco::reduceMoney($player, $amount, function (
                     bool $success
                 ) use ($player) : void {
@@ -206,7 +206,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Blood_Potion_Price")) {
+						  $amount = $this->config->get("Blood_Potion_Price") {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::POTION();
@@ -239,7 +239,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Booster_Cookie_Price")) {
+						  $amount = $this->config->get("Booster_Cookie_Price") {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::COOKIE();
@@ -272,7 +272,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("GB_Cookie_Price")) {
+						  $amount = $this->config->get("GB_Cookie_Price") {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::COOKIE();
@@ -305,7 +305,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 						}
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Dark_Carrot_Price")) {
+						  $amount = $this->config->get("Dark_Carrot_Price") {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::GOLDEN_CARROT();
@@ -338,7 +338,7 @@ class SuperItemsShop extends PluginBase implements Listener {
 					    }
 						switch($result){
 						  case 0:
-						  $amount = $this->config->get("Legends_Apple_Price")) {
+						  $amount = $this->config->get("Legends_Apple_Price") {
 				      libEco::reduceMoney($player, $amount, function (bool $success) use ($player) : void {
                     if ($success) {
 						  $item1 = VanillaItems::GOLDEN_APPLE();
