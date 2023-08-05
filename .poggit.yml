@@ -6,6 +6,6 @@ projects:
   SuperItemsShop:
     path: ""
 libs:
-      - src: davidglitch04\libEco\libEco
-        version: ^3.0.0
+  - src: davidglitch04\libEco\libEco
+  version: ^3.0.0
 ... 
